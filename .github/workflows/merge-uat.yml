@@ -27,4 +27,4 @@ jobs:
           git merge origin/develop --allow-unrelated-histories -X ours
       - name: Push changes to uat branch
         run: |
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/roni07/github-actions.git uat
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/roni07/github-actions-final.git uat
